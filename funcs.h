@@ -4,6 +4,7 @@
 double Sum(double, double);
 double Sub(double, double);
 double Mul(double, double);
+double Div(double, double);
 #endif // FUNCS_H
 
 
