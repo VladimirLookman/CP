@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include "funcs.h"
 using namespace std;
 
 
@@ -21,14 +22,14 @@ int main()
     cin >> count;
     switch (count)
     {
-    case 1: { cout << "Sum"; break; }
-    case 2: { cout << "Sub"; break; }
+    case 1: { result=Sum(a,b); break; }
+    case 2: { result=Sub(a,b); break; }
     case 3: { cout << "Mul"; break; }
     case 4: { cout << "Div"; break; }
     default:
         cout << "Wrong enter" << endl;
     }
-    cout << "Your result: " << endl;
+    cout << "Your result: " << result << endl;
     system("pause");
     return 0;
 }
