@@ -2,6 +2,9 @@
 #include "funcs.h"
 double Sum(double a, double b)
 {
-return a + b;
+    return a + b;
 }
-
+double Sub(double a, double b)
+{
+    return a - b;
+}
