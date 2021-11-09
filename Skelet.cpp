@@ -24,7 +24,7 @@ int main()
     {
     case 1: { result=Sum(a,b); break; }
     case 2: { result=Sub(a,b); break; }
-    case 3: { cout << "Mul"; break; }
+    case 3: { result=Mul(a,b); break; }
     case 4: { cout << "Div"; break; }
     default:
         cout << "Wrong enter" << endl;
